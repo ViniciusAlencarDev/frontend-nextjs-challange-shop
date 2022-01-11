@@ -10,7 +10,10 @@ Caso for usar o **docker** precisa ter o mesmo instalado, caso não, precisa ter
 
 ## Instalação com NodeJS ⚙️
 
-Passo a passo para a execução da aplicação:
+Para instalar as dependencias do projeto
+```
+npm install
+```
 
 Para compilar o projeto
 ```
