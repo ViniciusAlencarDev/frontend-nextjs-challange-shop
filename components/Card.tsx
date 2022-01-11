@@ -19,7 +19,7 @@ export default function Card({ id, image, description, beforePrice, price, amoun
                     <span className={styles.beforePrice}>{beforePrice.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}</span>
                 }
                 <span className={styles.price}>{price.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}</span>
-                <span className={styles.installmentsPrice}>em até <b>{amountOfInstallments}x de R$ {(price / amountOfInstallments).toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}</b> sem juros</span>
+                <span className={styles.installmentsPrice}>em até <span style={{ fontWeight: 'bold', color: 'black' }}>{amountOfInstallments}x de R$ {(price / amountOfInstallments).toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}</span> sem juros</span>
             </div>
 
             <Button isAdded={isAdded} callbackClick={() => callbackAdded(id)} />

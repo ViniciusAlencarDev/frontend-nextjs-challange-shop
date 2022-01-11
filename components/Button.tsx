@@ -9,10 +9,10 @@ export default function Button({ isAdded, callbackClick }: any) {
         <button className={
             !isAdded
             ? styles.container
-            : styles.containerSelecte
+            : styles.containerSelected
             }
             onClick={callbackClick}>
-                {isAdded && <><FaCheck /><span style={{ marginRight: 5 }}></span></> } Adicionar
+                {isAdded && <><FaCheck /><span style={{ marginRight: 16 }}></span></> }{!isAdded ? "Adicionar" : "Adicionado"}
         </button>
     );
 

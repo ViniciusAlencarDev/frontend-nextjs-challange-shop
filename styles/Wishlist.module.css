@@ -1,13 +1,13 @@
 
 
-.container {
-    width: 50px;
-    height: 50px;
-    font-size: 20pt;
+.container, .containerSelected {
+    width: 48px;
+    height: 48px;
+    font-size: 18pt;
     position: absolute;
     color: black;
-    right: 10px;
-    top: 10px;
+    right: 32px;
+    top: 32px;
     transition: .3s;
     cursor: pointer;
     display: flex;
@@ -22,20 +22,8 @@
 }
 
 .containerSelected {
-    width: 50px;
-    height: 50px;
-    font-size: 20pt;
-    position: absolute;
     color: white;
-    right: 10px;
-    top: 10px;
-    transition: .3s;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: var(--color-primary);
-    border-radius: 50%;
 }
 
 .containerSelected:hover {
