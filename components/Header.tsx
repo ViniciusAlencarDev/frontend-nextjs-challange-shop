@@ -15,7 +15,9 @@ export default function Header() {
     return(
         <div className={styles.container}>
             <div className={styles.boxHeader}>
-                <span className={styles.title}>{nameSystem}</span>
+                <span className={styles.title}>
+                    <span className={styles.text}>{nameSystem}</span>
+                </span>
             </div>
             <div className={styles.boxHeader}>
                 <span><FaCheck /> {myContext?.products.filter((item: { isAdded: any }) => item.isAdded).length}</span>

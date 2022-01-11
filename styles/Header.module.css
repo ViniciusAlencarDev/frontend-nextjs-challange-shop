@@ -24,4 +24,16 @@
 
 .title {
     font-weight: bold;
+    position: relative;
+}
+
+.text {
+    animation: floating 2s infinite;
+    width: 180px;
+}
+
+@keyframes floating {
+    0% { opacity: 1; }
+    50% { opacity: .5 }
+    100% { opacity: 1 }
 }
