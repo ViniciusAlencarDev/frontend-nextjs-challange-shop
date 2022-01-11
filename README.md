@@ -34,7 +34,7 @@ Para inciar o servidor:
 docker run -p 3000:3000 -d viniciusalencardev/teste8bonefront
 ```
 
-Estará disponivel em http://localhost:3030
+Estará disponivel em http://localhost:3000
 
 
 * Pronto para utilizar 🥳
