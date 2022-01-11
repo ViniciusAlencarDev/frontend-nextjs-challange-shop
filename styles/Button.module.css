@@ -1,0 +1,37 @@
+.container {
+    background-color: #40B25C;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    transition: .3s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container:hover {
+    background-color: #1C6C3E;
+}
+
+.containerSelected {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+    transition: .3s;
+    cursor: pointer;
+    background-color: #A3F9B9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    min-height: 70px;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px 1px gray;
+    padding: 10px;
+    position: fixed;
+    z-index: 1;
+    font-size: 20pt;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boxHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxHeader span {
+    margin-right: 20px;
+}
+
+.title {
+    font-weight: bold;
+}

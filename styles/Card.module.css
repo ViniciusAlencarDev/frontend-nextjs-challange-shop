@@ -1,0 +1,37 @@
+.container {
+    width: 304px;
+    height: 568px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+}
+
+.image {
+    margin: 8px 0;
+}
+
+.description {
+    margin-top: 30px;
+}
+
+.boxPrice {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0;
+}
+
+.beforePrice {
+    text-decoration: line-through;
+    color: gray;
+}
+.price {
+    color: #DA4B4F;
+    font-size: 17pt;
+}
+.installmentsPrice {
+    font-size: 10pt;
+}
